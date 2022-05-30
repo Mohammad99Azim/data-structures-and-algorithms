@@ -11,7 +11,7 @@ def reverseArray(input_list):
     return results_list
 ```
 ## Whiteboard Process
-![witeboard](Screenshot%20(76).png)
+![witeboard](array-reverse.png)
 
 ## Approach & Efficiency
 What approach did you take? 
