@@ -3,6 +3,13 @@
 
 in this challenge you will receve a list and value and you need to put 
 
+```
+def func(list , val):
+    half = int(len(list)/2) if len(list)%2 == 0 else int((len(list)-1)/2)
+    fin = list[:half:] + [val] +list[half::]
+    return(fin)
+```
+
 ## Whiteboard Process
 
 []()
