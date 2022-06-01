@@ -5,7 +5,8 @@ in this challenge you will receve a list and value and you need to put
 
 ## Whiteboard Process
 
-image
+[]()
+![array_insert_shift](../images/array_insert_shift.png)
 
 ## Approach & Efficiency
 What approach did you take? 
