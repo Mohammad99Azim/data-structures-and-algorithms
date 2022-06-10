@@ -1,8 +1,3 @@
-#
-#
-## TO TEST THIS FILE USE ==>  python -m pytest .\tests\test_linked_list\
-
-
 class Node:
     def __init__(self, value):
         self.value = value
