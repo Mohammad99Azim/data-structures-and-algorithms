@@ -56,6 +56,25 @@ class List:
             searcher = searcher.next
         return False
 
+    def delete(self, val):
+        searcher = self.head
+        while searcher:
+            if searcher.val == val:
+                if searcher.next and searcher.prev != None:
+                    searcher.next.prev = searcher.prev
+                    searcher.prev.next = searcher.next
+                elif searcher.next == None:
+                    self.cur = searcher.prev
+                    searcher.prev.next = None
+                    searcher.prev = None
+                elif searcher.prev == None:
+                    self.head = searcher.next
+                    searcher.next.prev = None
+                    searcher.next = None
+
+            searcher = searcher.next
+        return "Not Found ..!!"
+
 # lis = List()
 #
 # lis.insert(10)
@@ -68,3 +87,7 @@ class List:
 # lis.list_print()
 # lis.back_print()
 # print(lis.inclued(-10))
+# lis.delete(-20)
+# lis.delete(40)
+# lis.delete(10)
+# lis.back_print()
