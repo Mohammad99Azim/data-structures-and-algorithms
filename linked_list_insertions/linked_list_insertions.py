@@ -66,6 +66,9 @@ class Linked_list:
         new_node = self.create_node(new_value)
         checker = self.head
 
+        if checker is None:
+            raise Exception("Sorry, the list is Empty")
+
         if checker.value == value:
             self.insert(new_value)
             return
@@ -85,6 +88,9 @@ class Linked_list:
 
         new_node = self.create_node(new_value)
         checker = self.head
+
+        if checker is None:
+            raise Exception("Sorry, the list is Empty")
 
         while checker:
             if checker.value == value:
