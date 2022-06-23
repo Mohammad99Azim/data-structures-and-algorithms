@@ -33,6 +33,26 @@ def merges(list_one, list_two):
     return list_one
 
 
+def reverse(linked_list):
+
+    prev = linked_list.head
+    b = linked_list.head.next
+    c = linked_list.head.next.next
+
+    linked_list.head.next = None
+    while c:
+        b.next = prev
+        prev = b
+        b = c
+        c = c.next
+    b.next = prev
+    linked_list.head = b
+
+
+
+
+
+
 if __name__ == '__main__':
     one = Linked_list()
     one.insert(40)
@@ -62,4 +82,7 @@ if __name__ == '__main__':
     # YOU CAN SEE THE LIST ( one ) WAS CHANGED BY  ( zip_lists ) METHOD
     print("Merge Lists :" + merges(three, two).to_string() + "\n")
 
-
+    print ('%%%%%%%%%%%%%%%%%%%%%%%%%%%% reverse:')
+    print("Before :" + three.to_string() + "\n")
+    reverse(three)
+    print("After :" + three.to_string() + "\n")
