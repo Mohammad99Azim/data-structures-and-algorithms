@@ -5,7 +5,7 @@ to check if the brackets in the string  are balanced if it balanced return True 
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![brackets](../images/brackets.jpg)
+![brackets](../images/brackets(6).jpg)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
