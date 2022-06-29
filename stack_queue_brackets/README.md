@@ -11,6 +11,9 @@ to check if the brackets in the string  are balanced if it balanced return True 
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 using Stack Datastructure it will push to the top every open bracket and if it closing  bracket it will pop from it 
 
+time: O(n) because of the loop on the string
+space O(n) because we adding to the stack
+
 
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
