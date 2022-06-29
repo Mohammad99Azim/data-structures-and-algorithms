@@ -14,4 +14,4 @@
 | linked-list-zip        | [linked-list-zip ](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/linked_list_zip/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_linked_list_zip.py)   |
 | PseudoQueue        | [Pseudo_Queue ](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/stack_queue_pseudo/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_stack_queue_pseudo.py)   |
 | Animal_Shelter        | [Animal_Shelter ](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/Animal_Shelter/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_animal_shelter.py)   |
-
+| stack_queue_brackets| [stack_queue_brackets](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/stack_queue_brackets/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_stack_brackets.py)   |
