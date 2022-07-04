@@ -15,12 +15,6 @@ space : it will be O(n) because we made an array in the pre_order method
 <!-- Show how to run your code, and examples of it in action -->
 ```
 
-    def max_value(self):
-        if self.pre_order() is None:
-            raise Exception("The Tree Is Empty !!!")
-        return max(self.pre_order())
-
-
     def pre_order(self, root=None, arr=[]):
         if self.root is None:
             return None
@@ -32,5 +26,19 @@ space : it will be O(n) because we made an array in the pre_order method
         if root.left:
             self.pre_order(root.left)
         return arr
+
+    def max_value(self):
+        arr = self.pre_order()
+        if arr is None:
+            raise Exception("The Tree Is Empty !!!")
+        max = None
+        for x in arr:
+            if max is None:
+                max = x
+            elif x > max:
+                max = x
+        return max
+
+
 
 ```
