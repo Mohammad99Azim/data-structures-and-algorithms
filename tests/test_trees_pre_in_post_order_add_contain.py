@@ -84,6 +84,17 @@ def test_contains_true_false(my_search_tree):
     assert my_search_tree.contains(46) is False
 
 
+def test_contains_rais_exception(my_search_tree):
+    with pytest.raises(Exception) as e:
+        my_search_tree.contains("str")
+    assert repr(e) == '<ExceptionInfo Exception("Value Must Be Int Not <class \'str\'>") tblen=2>'
+
+
+def test_add_rais_exception(my_search_tree):
+    with pytest.raises(Exception) as e:
+        my_search_tree.add("str")
+    assert repr(e) == '<ExceptionInfo Exception("Value Must Be Int Not <class \'str\'>") tblen=2>'
+
 @pytest.fixture
 def my_tree():
     tree = Binary_tree()

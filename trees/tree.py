@@ -1,7 +1,3 @@
-import numpy as np
-
-
-# np.array([1,2,3])
 class Node:
     def __init__(self, val):
         self.val = val
@@ -71,6 +67,8 @@ class Binary_Search_Tree(Binary_tree):
         :param value:
         :return: Nothing
         '''
+        if not isinstance(value, int):
+            raise Exception('Value Must Be Int Not ' + str(type(value)))
         cur = self.root
         new_node = Node(value)
 
@@ -100,6 +98,9 @@ class Binary_Search_Tree(Binary_tree):
         :param value:
         :return: boolean indicating whether or not the value is in the tree at least once.
         '''
+        if not isinstance(value, int):
+            raise Exception('Value Must Be Int Not ' + str(type(value)))
+
         cur = self.root
 
         while cur:
