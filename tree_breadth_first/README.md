@@ -13,24 +13,22 @@ time : O(n) beause of the  while loop will loop for each node in the tree
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
 ```
-        def tree_breadth_first(self, root=None):
-        if self.root is None:
-            raise Exception("The Tree Is Empty !!!")
-        if root is None:
-            root = self.root
+def tree_breadth_first(tree):
+    if tree.root is None:
+        raise Exception("The Tree Is Empty !!!")
+    root = tree.root
+    queue = []
+    results = []
+    queue.append(root)
+    while queue:
+        if queue[0].left:
+            queue.append(queue[0].left)
 
-        queue = []
-        results = []
-        queue.append(root)
-        while queue:
-            if queue[0].left:
-                queue.append(queue[0].left)
+        if queue[0].right:
+            queue.append(queue[0].right)
 
-            if queue[0].right:
-                queue.append(queue[0].right)
-
-            results.append(queue[0].val)
-            queue.pop(0)
-        return results
+        results.append(queue[0].val)
+        queue.pop(0)
+    return results
 
 ```
