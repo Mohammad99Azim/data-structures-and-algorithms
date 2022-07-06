@@ -11,10 +11,10 @@ class My_Tree:
         self.root = None
 
 
-def tree_breadth_first(root):
-    if root.root is None:
+def tree_breadth_first(tree):
+    if tree.root is None:
         raise Exception("The Tree Is Empty !!!")
-    root = root.root
+    root = tree.root
     queue = []
     results = []
     queue.append(root)
