@@ -4,7 +4,8 @@ need make a function return a list with all node values in tree have breadth fir
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![breadth_first](../images/breadth_first.jpg)
+![breadth_first](../images/breadth_first_search.jpg)
+
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 space : O(n) because i have a list save the current level nodes
@@ -32,3 +33,4 @@ def tree_breadth_first(tree):
     return results
 
 ```
+
