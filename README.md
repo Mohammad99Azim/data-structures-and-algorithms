@@ -18,7 +18,6 @@
 | trees | [trees](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/trees/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_trees_pre_in_post_order_add_contain.py)   |
 | tree-max | [trees](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tree_max/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_tree_max.py)   |
 | breadth first | [breadth first](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tree_breadth_first/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_breadth_first.py)   |
-
 | tree fizz buzz | [tree_fizz_buzz](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tree_fizz_buzz/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_fizz_buzz.py)   |
 
 
