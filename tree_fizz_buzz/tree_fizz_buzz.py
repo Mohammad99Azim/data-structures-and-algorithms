@@ -10,6 +10,17 @@ class My_Tree:
         self.root = None
 
 
+def print_tree_nodes(k_ary_tree):
+    if k_ary_tree.root is None:
+        raise Exception("The Tree Is Empty !!!")
+    lists = [k_ary_tree.root]
+    while lists:
+        print(lists[0].val)
+        for x in lists[0].child:
+            lists.append(x)
+        lists.pop(0)
+
+
 def fizz_buzz_tree(k_ary_tree):
     if k_ary_tree.root is None:
         raise Exception("The Tree Is Empty !!!")
@@ -50,11 +61,16 @@ if __name__ == "__main__":
     k_ary_tree.root.child[2].child.append(Node(65))
     k_ary_tree.root.child[2].child.append(Node(30))
 
-
     print(k_ary_tree.root.child[1].val)
     print(k_ary_tree.root.child[2].child[1].val)
 
+    print("*"*50)
+    print_tree_nodes(k_ary_tree)
+    print("*"*50)
     fizz_buzz_tree(k_ary_tree)
+    print("*"*50)
+    print_tree_nodes(k_ary_tree)
+    print("*"*50)
 
     print(k_ary_tree.root.child[1].val)
     print(k_ary_tree.root.child[2].child[1].val)
