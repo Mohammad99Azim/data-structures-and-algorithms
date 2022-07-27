@@ -20,6 +20,7 @@
 | breadth first | [breadth first](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tree_breadth_first/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_breadth_first.py)   |
 | tree fizz buzz | [tree_fizz_buzz](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tree_fizz_buzz/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_fizz_buzz.py)   |
 | insertion sort | [insertion sort](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/sorting/insertion/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_Insertion_Sort.py)   |
+| merge sort | [merge sort](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/sorting/merge/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_Merge_sort.py)   |
 
 
 
