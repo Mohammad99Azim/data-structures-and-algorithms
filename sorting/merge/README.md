@@ -9,7 +9,7 @@ make function accept array with integers then return it sorted using the merge s
 ![](../../images/traceMergSort.jpg)
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-following the merge sort algorithm to sort the array
+the approach did i take is following the merge sort algorithm to sort the array in less time complexity the other sort algorithms take O(n^2) but merge sort take O(n log(n)) complexity time. so in general i took the less complexity approach
 
 
 Space : O(n) because it use all indexes to create the left and right
