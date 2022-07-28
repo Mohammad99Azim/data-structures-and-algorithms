@@ -11,6 +11,12 @@ make function accept array with integers then return it sorted using the merge s
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 following the merge sort algorithm to sort the array
 
+
+Space : O(n) because it use all indexes to create the left and right
+if you count stack frames, then it's O(n)+ O(log n) , so still O(n)
+
+Time : O(n*Log(n)) the n it come from the merge function (it have while loop)  the log(n) it's coming from the recursion call and dividing the array to the left and right
+
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
 
