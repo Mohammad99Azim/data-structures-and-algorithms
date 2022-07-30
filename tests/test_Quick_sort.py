@@ -7,13 +7,13 @@ def test_QuickSort():
     assert actual == exception
 
 
-def test_empty_InsertionSort():
+def test_empty_QuickSort():
     actual = QuickSort([], 0, 0)
     exception = None
     assert actual == exception
 
 
-def test_InsertionSort_2():
+def test_QuickSort_2():
     actual = QuickSort([8, 4, 23, 42, 16, 15],0,5)
     exception = [4, 8, 15, 16, 23, 42]
     assert actual == exception
