@@ -8,11 +8,17 @@ make function accept array and left, right  all integers then return the array s
 ![](../../images/QuickSort_whiteboard.jpg)
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-following the  Quick sorting to sort the array with less Time complexity and also less space complexity 
+following the  Quick sorting to sort the array with less Time complexity and also less space complexity (not on all cases)
 
-Space : O(1) because there is no added space  the all changes will be on the array (arr) that will pass as argument
+Time : O(n^2)   When quicksort always has the most unbalanced partitions possible  (( after the first partition, one array will have 1 element and the other one will have (N-1) elements.  ))
 
-Time : O(n * log(n))  the swap function is constant time the Partition will be  n time and it will use inside the QuickSort function which is Log(n) so the time complexity is O(n * log(n))
+
+Space:  O(n) because my recursion will be called on all the indexes in the array  if it was  always has the most unbalanced partitions possible (call stack will have  n number of node)
+
+ ### this image will show you tree with most unbalanced partitions possible
+
+![](../../images/QuickSortTree.png)
+
 
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
