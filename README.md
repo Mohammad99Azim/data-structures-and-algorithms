@@ -22,8 +22,7 @@
 | insertion sort | [insertion sort](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/sorting/insertion/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_Insertion_Sort.py)   |
 | merge sort | [merge sort](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/sorting/merge/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_Merge_sort.py)   |
 | quick sort | [quick sort](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/sorting/quick/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_Quick_sort.py)   |
-
-
+| hashmap repeated word | [hashmap repeated word](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/hashmap_repeated_word/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_hashmap_repeated_word.py)   |
 
 
 
