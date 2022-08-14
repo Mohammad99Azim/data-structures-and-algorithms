@@ -13,7 +13,7 @@ make function accept two trees and return a set of values found in both trees us
 
 What i did exactly is collecting the values from trees then but them in a hash table using set method and the keys was order to make less time complexity on the best and average case
 
-Time : O(n): because of the get method and there is two for loop each one loop through the trees values
+Time : O(n^2): because of the get method are called inside the for loop 
 
 Space:  O(n) because in the hash table the size equal the length of tree1 values and i have two array with all values from the trees
 
