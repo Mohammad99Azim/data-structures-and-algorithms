@@ -14,22 +14,20 @@ class Tree:
 
 
 def tree_intersection(tree1, tree2):
-
     tree1 = tree_breadth_first(tree1)
     tree2 = tree_breadth_first(tree2)
     theValues = []
 
     my_hash_table = HashTable(len(tree1))
 
-    for ind,x in enumerate(tree1):
-        my_hash_table.set(str(ind),x)
+    for ind, x in enumerate(tree1):
+        my_hash_table.set(str(ind), x)
 
-    for ind2 ,y in enumerate(tree2):
+    for ind2, y in enumerate(tree2):
         val = my_hash_table.get(str(ind2))
         if val is not None and val == y:
             theValues.append(val)
     return theValues
-
 
 
 def tree_breadth_first(tree):
@@ -83,7 +81,6 @@ if __name__ == '__main__':
     Tree2.root.right.right.right = TreeNode(1001)
 
     tree2 = Tree2
-
 
     print(tree_breadth_first(tree1))
     print(tree_intersection(tree1, tree2))
