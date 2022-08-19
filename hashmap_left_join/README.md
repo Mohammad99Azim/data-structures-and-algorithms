@@ -26,5 +26,3 @@ Space:  O(n) because  i have a hashResult array  will have all the values  and t
 <!-- Embedded whiteboard image -->
 
 ![left_join](../images/hashmap_left_join.jpg)
-
-qwerqwer asdf
