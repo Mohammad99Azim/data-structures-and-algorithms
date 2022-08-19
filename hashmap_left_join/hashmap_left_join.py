@@ -21,7 +21,7 @@ hashtable2.set('wrath', 'delight')
 
 def leftJoin(hashT1, hashT2):
     hashResult = []
-    for x in hashT1.keys:
+    for x in hashT1.keys():
         val1 = hashT1.get(x)
         val2 = hashT2.get(x)
         hashResult.append([x, val1, val2])

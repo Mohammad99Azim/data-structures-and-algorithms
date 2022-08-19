@@ -18,7 +18,7 @@ class HashTable:
     def __init__(self, size):
         self.__size = size
         self.__bucket = [None] * self.__size
-        self.keys = []
+        self.__keys = []
 
     def set(self, key, value):
         hashkey = self.__hash(key)
@@ -26,7 +26,7 @@ class HashTable:
             ll = LinkedList()
             self.__bucket[hashkey] = ll
         self.__bucket[hashkey].insert([key, value])
-        self.keys.append(key)
+        self.__keys.append(key)
 
     def get(self, key):
         hashkey = self.__hash(key)
@@ -39,15 +39,16 @@ class HashTable:
             cur = cur.next
 
     def contains(self, key):
-        for x in self.keys:
+        for x in self.__keys:
             if x == key:
                 return True
         return False
 
     def __hash(self, key):
         return sum(ord(x) for x in key) * 452 % self.__size
+
     def keys(self):
-        return self.keys
+        return self.__keys
 
 
 if __name__ == "__main__":
