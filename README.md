@@ -25,6 +25,7 @@
 | hashmap repeated word | [hashmap repeated word](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/hashmap_repeated_word/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_hashmap_repeated_word.py)   |
 | tree intersection | [tree intersection](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tree_intersection/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_tree_intersection.py)   |
 | hashmap left join | [hashmap_left_join](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/hashmap_left_join/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_hashmap_left_join.py)   |
+| Graph | [graph](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/graph/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_graph.py)   |
 
 
 
