@@ -67,27 +67,7 @@ class Graph:
         '''
         return len(self.__graph_list)
 
-    def breadth_first(self, root):
-        '''
-        it will iterate through the graph then 
-        return all the values in he vertexes
-        input: root (vertex in the graph)
-        return list of vertexes values
-        '''
-        queue = deque()
-        visited_set = set()
-        finale_results = []
-
-        queue.appendleft(root)
-        while queue:
-            current = queue.popleft()
-            visited_set.add(current)
-            finale_results.append(current.value)
-            for y in self.__graph_list[current]:
-                if y.vertex not in visited_set:
-                    queue.append(y.vertex)
-
-        return finale_results
+    
 
 
 if __name__ == "__main__":
@@ -106,5 +86,3 @@ if __name__ == "__main__":
     my_graph.add_edge(b, c)
 
     my_graph.add_edge(c, f)
-
-    print(my_graph.breadth_first(a))
