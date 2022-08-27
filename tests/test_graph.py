@@ -65,7 +65,7 @@ def test_get_neighbors_weight():
 
     my_graph.add_edge(node1,node2)
    
-    actual = my_graph.get_neighbors(node1)[0].vertex.weight
+    actual = my_graph.get_neighbors(node1)[0].weight
     expect = 0
     assert actual == expect
 
