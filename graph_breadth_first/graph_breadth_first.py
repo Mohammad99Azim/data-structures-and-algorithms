@@ -15,7 +15,6 @@ class Graph_breadth_first(Graph):
             '''
             try:
                 val =root.value
-                weight =root.weight
             except:
                 raise Exception("the node given is not valid")
  

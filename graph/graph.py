@@ -2,14 +2,15 @@ from collections import deque
 
 
 class Edge:
-    def __init__(self, vertex):
+    def __init__(self, vertex, weight=0):
         self.vertex = vertex
+        self.weight = weight
 
 
 class Vertex:
-    def __init__(self, value, weight=0):
+    def __init__(self, value):
         self.value = value
-        self.weight = weight
+        
 
 
 class Graph:
@@ -27,7 +28,7 @@ class Graph:
         self.__graph_list[vertex] = []
         return vertex
 
-    def add_edge(self, start_vertex, end_vertex):
+    def add_edge(self, start_vertex, end_vertex,weight=0):
         '''
         if the vertexes are valid will make two instances from Edge class then 
         it will add start_vertex as neighbor for the end_vertex and vice versa.
@@ -36,8 +37,8 @@ class Graph:
         '''
         if start_vertex not in self.__graph_list or end_vertex not in self.__graph_list:
             raise Exception("vertex should not be None")
-        edge = Edge(end_vertex)
-        edge2 = Edge(start_vertex)
+        edge = Edge(end_vertex,weight)
+        edge2 = Edge(start_vertex,weight)
         self.__graph_list[start_vertex].append(edge)
         self.__graph_list[end_vertex].append(edge2)
 
