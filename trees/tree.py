@@ -114,6 +114,34 @@ class Binary_Search_Tree(Binary_tree):
         return False
 
 
+def my_post_order(root):
+    cur = root
+    res =[]
+    stack = []
+
+    while True:
+        while cur:
+            stack.append(cur)
+            cur = cur.left
+        
+        
+
+        if len(stack) < 1:
+            return res
+
+        node = stack[-1]
+
+
+        stack.pop(len(stack)-1)
+
+        if node.val != None:
+            res.append(node.val)
+            
+        cur = node.left
+
+
+
+
 if __name__ == "__main__":
     tree = Binary_tree()
 
@@ -129,6 +157,8 @@ if __name__ == "__main__":
     # tree.pre_order(tree.root)
     # tree.in_order(tree.root)
     print(tree.post_order(tree.root))
+    print("&^"*40)
+    print(my_post_order(tree.root))
 
     ###########################################
 
