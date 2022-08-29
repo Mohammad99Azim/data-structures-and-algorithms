@@ -27,8 +27,7 @@
 | hashmap left join | [hashmap_left_join](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/hashmap_left_join/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_hashmap_left_join.py)   |
 | Graph | [graph](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/graph/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_graph.py)   |
 | Graph Breadth First| [Breadth First](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/graph_breadth_first/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_graph_breadth_first.py)   |
-
-
+| Graph Depth First| [Depth First](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/graph_depth_first/README.md) \|\| [Tests](https://github.com/Mohammad99Azim/data-structures-and-algorithms/blob/main/tests/test_graph_depth_first.py)   |
 
 
 
